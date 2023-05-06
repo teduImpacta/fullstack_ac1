@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "onerest"
+version = "0.1.0"
+description = "This is a mini-project for a REST API based on the One Piece series, implemented using Python and a web framework such as Flask or FastAPI. The API has two endpoints, one that returns a list of character objects from the series and another that allows searching for a specific character by ID. The dependencies for the project are managed using Poetry, and the responses are returned in JSON format. The project aims to provide a simple and efficient way to retrieve character information from One Piece through a RESTful API."
+authors = ["KenyeRest"]
+license = "mit"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+uvicorn = "^0.22.0"
+pydantic = "^1.10.7"
+pytest = "^7.3.1"
+fastapi = "^0.95.1"
+asyncio = "^3.4.3"
+httpx = "^0.24.0"
+pytest-asyncio = "^0.21.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
